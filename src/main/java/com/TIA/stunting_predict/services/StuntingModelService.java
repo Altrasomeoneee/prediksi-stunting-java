@@ -12,7 +12,7 @@ public class StuntingModelService {
         try {
             // Command to run the Python script with arguments
             String[] command = {
-                    "src/main/java/com/TIA/stunting_predict/stunting_app/venv/bin/python",
+                    "src/main/java/com/TIA/stunting_predict/stunting_app/venv/bin/python", // ganti dengan venv masing masing
                     "src/main/java/com/TIA/stunting_predict/stunting_app/app_cmd.py",
                     "--gender", gender,
                     "--umur", String.valueOf(umur),
